@@ -1,0 +1,97 @@
+
+/*first type
+body{
+    height:100vh ;
+    margin: 0;
+    background: white;
+}
+.cursor{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #0d1321 ;
+    background:#0d1321 ;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursor .5s infinite alternate;
+
+}
+.cursor::after{
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    border: 8px solid #748cab;
+    border-radius: 50%;
+    opacity: .5;
+    top: -8px;
+    left: -8px;
+    animation: cursor1 .5s infinite alternate;
+}
+@keyframes cursor {
+   from {
+    transform: scale(1);
+   }to{
+    transform: scale(.7);
+   }
+       
+}
+@keyframes cursor1 {
+    from {
+     transform: scale(1);
+    }to{
+     transform: scale(.7);
+    }
+        
+ }
+ .expand{
+    animation: cursor2 .5 forwards;
+    border: 1px solid #3171c5 ;
+ }
+ @keyframes cursor2 {
+    0% {
+     transform: scale(1);
+    }50%{
+     transform: scale(3);
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
+       }
+        
+ }
+ two
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    min-height: 100lvh;
+    background-color: #050908;
+  }
+  
+  .circle {
+    --circle-size: 20px;
+    position: fixed;
+    height: var(--circle-size);
+    width: var(--circle-size);
+    border: 1px solid white;
+    border-radius: 100%;
+    top: calc(var(--circle-size) / 2 * -1);
+    left: calc(var(--circle-size) / 2 * -1);
+    pointer-events: none;
+    background: white;
+  }*/
+.circle{
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
